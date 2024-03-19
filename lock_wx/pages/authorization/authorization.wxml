@@ -1,0 +1,20 @@
+<view wx:for="{{users}}" wx:key="list">
+  <view class="lijianjin">
+    <!-- <text class="motto">{{item.time}}</text>
+    <image class="avatar" src="{{item.image}}"></image> -->
+    <image src="{{item.avatar}}" ></image>
+    <view class="lijianjin_text">
+      <view class="text_down">{{item.nickname}}</view>
+      <view wx:if="{{item.is_superuser}}">
+          <view class="text_up">超级用户</view>
+      </view>
+      <view wx:else>
+          <view class="text_up">普通用户</view>
+      </view>
+    </view>
+    <view class="layout_vertical">
+    <button class="lijianjin_btn" data-nickname="{{item.nickname}}" data-avatar="{{item.avatar}}" catchtap="bindViewTap_del"  formType="submit">删除</button>
+    <button class="lijianjin_btn" catchtap="bindViewTap_ok" data-nickname="{{item.nickname}}" data-avatar="{{item.avatar}}"  formType="submit">授权</button>
+    </view>
+  </view>
+</view>

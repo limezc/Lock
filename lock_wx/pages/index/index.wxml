@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+    <text class="motto">Hello, 九月</text>
+    <view class="journey-container" bindtap="bindViewTap">
+      <text class="journey">开启小程序之旅</text>
+    </view>
+</view>

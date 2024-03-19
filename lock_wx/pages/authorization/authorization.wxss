@@ -1,0 +1,58 @@
+ 
+.lijianjin {
+  width: 90%;
+  margin: auto;
+  height: 200rpx;
+  border-radius: 10rpx;
+  margin-top: 100rpx;
+  background: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  -moz-box-shadow:0px 1px 5px #d0d0d0; -webkit-box-shadow:0px 1px 5px #d0d0d0; box-shadow:0px 1px 5px #d0d0d0;
+ 
+}
+ 
+.lijianjin image {
+  width: 78rpx;
+  height: 78rpx;
+  margin-left: 30rpx;
+  margin-right: 28rpx;
+}
+ 
+.lijianjin .text_up {
+  color: #BEBEBE;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+ 
+.lijianjin .text_down {
+  font-size: 34rpx;
+  font-weight: 600;
+  letter-spacing: 2rpx;
+}
+ 
+.lijianjin .lijianjin_btn {
+  width: 174rpx;
+  height: 40rpx;
+  line-height: 74rpx;
+  /* position: absolute; */
+  right:30rpx;
+  background: #00C261;
+  color: #fff;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+ 
+.lijianjin .lijianjin_btn:after {
+  border: none;
+}
+
+.lijianjin .layout_vertical{
+margin-left:10rpx;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+width:40%;
+}

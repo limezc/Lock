@@ -1,0 +1,9 @@
+<!-- 组件 custom-component.wxml -->
+<view class="container">
+    <view class="journey-container" bindtap="onLock">
+      <text class="journey">ON</text>
+    </view>
+    <view class="journey-container" bindtap="offLock">
+      <text class="journey">OFF</text>
+    </view>
+</view>

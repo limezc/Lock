@@ -1,0 +1,6 @@
+<!--pages/qrcode/qrcode.wxml-->
+<view class="container">
+<text class="motto">将二维码置于摄像头前</text>
+<text class="motto">{{qrcode}}</text>
+<canvas style="width: 300rpx;height: 300rpx;background:#f1f1f1;" canvas-id="mycanvas" class="qrcode"/>
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main",
+    "pages/camera/camera",
+    "pages/qrcode/qrcode",
+    "pages/authorization/authorization"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "无序熵增",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/lock.png",
+        "iconPath": "images/lock_un.png",
+        "pagePath": "pages/main/main",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/monitor.png",
+        "iconPath": "images/monitor_un.png",
+        "pagePath": "pages/camera/camera",
+        "text": "监控"
+      },
+      {
+        "selectedIconPath": "images/qrcode.png",
+        "iconPath": "images/qrcode_un.png",
+        "pagePath": "pages/qrcode/qrcode",
+        "text": "二维码"
+      },
+      {
+        "selectedIconPath": "images/authorization.png",
+        "iconPath": "images/authorization_un.png",
+        "pagePath": "pages/authorization/authorization",
+        "text": "授权"
+      }
+    ]
+  }
+}

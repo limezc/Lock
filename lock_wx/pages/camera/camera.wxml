@@ -1,0 +1,7 @@
+<view class="container">
+  <text class="motto1">监控照片</text>
+  <view wx:for="{{pic}}" wx:key="list">
+    <text class="motto">{{item.time}}</text>
+    <image class="avatar" src="{{item.image}}"></image>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/* pages/qrcode/qrcode.wxss */
+.motto{
+    margin-top:100rpx;
+    font-size:32rpx;
+    font-weight: bold;
+}
+.qrcode{
+    margin-top: 200rpx;
+    border: 1px solid #405f80;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 5px;
+    text-align:center;
+    font-size:22rpx;
+    font-weight: bold;
+    line-height:80rpx;
+    color: #405f80;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#FFCC99;
+}
