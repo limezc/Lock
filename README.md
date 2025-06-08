@@ -86,8 +86,8 @@ graph LR
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/yourusername/smart-lock-system.git
-   cd smart-lock-system
+   git clone https://github.com/limezc/Lock
+   cd Lock
    ```
 
 2. **配置云服务器**
